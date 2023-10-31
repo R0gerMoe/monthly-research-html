@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.main-body{
+    display: inline-block;
+    width: 80%;
+    height: 450vh;
+    /* margin-bottom: 20px; */
+    margin: 0% 10%;
+    background-color: rgb(150, 216, 216);
+    position: relative;
+}
+
+.nav-bar ul {
+    /* display: inline-block; */
+    width: 80%;
+    background-color: rgb(180, 179, 179);
+    position: flex;
+    text-align: center;
+    position: fixed;
+    list-style: none;
+    overflow: hidden;
+    font-size: large;
+}
+.nav-bar h1{
+    margin: 50px 0px 20px 0px;
+    color: rgb(76, 95, 95);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5cap;
+}
+.nav-bar li{
+    display: inline-block;
+    padding: 2% 5%;
+}
+.nav-bar li:hover{
+    background-color: rgb(117, 117, 206);
+   
+}
+.nav-bar a{
+    text-decoration: none;
+}
+
+#nimble{
+    text-align: left;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+#nimble a{
+    font-weight: bold;
+    font-size: 2cap;
+}
+#shopee{
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+#shopee a{
+    font-weight: bold;
+    font-size: 2cap;
+}
+#krungsri{
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+#krungsri a{
+    font-weight: bold;
+    font-size: 2cap;
+}
